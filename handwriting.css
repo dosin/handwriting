@@ -4,6 +4,7 @@ canvas {
 }
 .controller {
 	margin: 10px auto;
+	display: none;
 }
 .btn {
 	float: left;

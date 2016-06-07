@@ -14,6 +14,7 @@ canvas.width = canvasWidth;
 canvas.height = canvasHeight;
 
 var controller = document.querySelector(".controller");
+controller.style.display = "block";
 controller.style.width = canvasWidth+"px";
 
 drawGrid(context);
