@@ -1,0 +1,55 @@
+canvas {
+	display: block;
+	margin: 0 auto;
+}
+.controller {
+	margin: 10px auto;
+}
+.btn {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 10px 0;
+}
+.btn-black {
+	background-color: black;
+}
+.btn-red {
+	background-color: red;
+}
+.btn-orange {
+	background-color: orange;
+}
+.btn-yellow {
+	background-color: yellow;
+}
+.btn-green {
+	background-color: green;
+}
+.btn-indigo {
+	background-color: indigo;
+}
+.btn-blue {
+	background-color: blue;
+}
+.btn-purple {
+	background-color: purple;
+}
+.btn.on {
+	box-shadow: 3px 3px 3px #333;
+}
+.btn-clear {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid currentColor;
+	border-radius: 5px;
+}
+.btn-clear:hover {
+	background: #333;
+	color: #fff;
+}
